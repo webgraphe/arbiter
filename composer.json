@@ -1,0 +1,29 @@
+{
+    "name": "webgraphe/arbiter",
+    "description": "Simple decision support system based on boolean functions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webgraphe\\Arbiter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webgraphe\\Tests\\Arbiter\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean-Philippe Léveillé",
+            "email": "jpleveille@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
